@@ -1,0 +1,27 @@
+{
+  "ip": "192.168.2.1",
+  "community": "tggs1234",
+  "type": "huawei",
+  "varargs": [
+    {"oid":"1.3.6.1.2.1.1.1.0","desc":"获取系统基本信息","name":"SysDesc","method":"GET"},
+    {"oid":"1.3.6.1.2.1.1.3.0","desc":"监控时间","name":"sysUptime","method":"GET"},
+    {"oid":"1.3.6.1.2.1.1.4.0","desc":"系统联系人","name":"sysContact","method":"GET"},
+    {"oid":"1.3.6.1.2.1.1.5.0","desc":"获取机器名","name":"SysName","method":"GET"},
+    {"oid":"1.3.6.1.2.1.1.6.0","desc":"机器坐在位置","name":"SysLocation","method":"GET"},
+    {"oid":"1.3.6.1.2.1.1.7.0","desc":"机器提供的服务","name":"SysService","method":"GET"},
+    {"oid":"1.3.6.1.2.1.25.4.2.1.2","desc":"系统运行的进程列表","name":"hrSWRunName","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.25.6.3.1.2","desc":"系统安装的软件列表","name":"hrSWInstalledName","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.1.0","desc":"网络接口的数目","name":"IfNumber","method":"GET"},
+    {"oid":"1.3.6.1.2.1.2.2.1.2","desc":"网络接口信息描述","name":"IfDescr","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.2.1.3","desc":"网络接口类型","name":"IfType","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.2.1.4","desc":"接口发送和接收的最大IP数据报[BYTE]","name":"IfMTU","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.2.1.5","desc":"接口当前带宽[bps]","name":"IfSpeed","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.2.1.6","desc":"接口的物理地址","name":"IfPhysAddress","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.2.1.8","desc":"接口当前操作状态[up|down]","name":"IfOperStatus","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.2.1.10","desc":"接口收到的字节数","name":"IfInOctet","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.2.1.16","desc":"接口发送的字节数","name":"IfOutOctet","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.2.1.11","desc":"接口收到的数据包个数","name":"IfInUcastPkts","method":"WALK"},
+    {"oid":"1.3.6.1.2.1.2.2.1.17","desc":"接口发送的数据包个数","name":"IfOutUcastPkts","method":"WALK"}
+
+  ]
+}
